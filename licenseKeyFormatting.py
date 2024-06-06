@@ -38,7 +38,7 @@ class Solution:
         # Step 2: Initialize an empty list to hold the groups
         groups = []
         
-        # Step 3: Create the groups of size `k` starting from the end
+        # Step 3: Create the groups of si ze `k` starting from the end
         while len(s) > k:
             groups.append(s[-k:])  # Take the last k characters
             s = s[:-k]             # Remove the last k characters from s
