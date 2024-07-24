@@ -25,10 +25,7 @@
 
 # 3 <= nums.length <= 104
 # -1000 <= nums[i] <= 1000
-
-class Solution:
-    def maximumProduct(self, nums: List[int]) -> int:
-        from typing import List
+from typing import List
 
 class Solution:
     def maximumProduct(self, nums: List[int]) -> int:
